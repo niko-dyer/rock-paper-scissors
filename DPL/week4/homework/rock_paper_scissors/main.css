@@ -3,8 +3,22 @@
     justify-content: center;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     border: 3px solid black;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hand {
@@ -16,15 +30,29 @@
     height: 200px;
 }
 
-/* #rock-img {
+#rock-img {
     z-index: 1;
-    display: flex;
-    flex-flow: wrap;
-    padding: 20px;
+    display: none;
 }
 
 #paper-img {
     z-index: 1;
-    display: flexbox;
-    padding: 100px;
-} */
+    display: none;
+} 
+
+#scissors-img {
+    z-index: 1;
+    display: none;
+}
+
+#user {
+    align-self: center;
+}
+
+#opponent {
+    align-self: center;
+}
+
+#result {
+    align-self: center;
+}
