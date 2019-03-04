@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 3px solid black;
+}
+
+.hand {
+    z-index: 1;
+    order: 2;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+/* #rock-img {
+    z-index: 1;
+    display: flex;
+    flex-flow: wrap;
+    padding: 20px;
+}
+
+#paper-img {
+    z-index: 1;
+    display: flexbox;
+    padding: 100px;
+} */
